@@ -1,0 +1,168 @@
+@media screen and (max-width: 500px) {
+     body {
+          background-color: #F8F8F8;
+          padding-left: 2rem;
+          padding-right: 2rem;
+     }
+   
+     .container_imagem {
+     display: flex;
+     justify-content: center;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+   }
+   
+
+   .container_informacoes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+        font-family: 'Montserrat', serif;
+     }
+
+     .meu_nome {
+          font-weight: bold;
+          margin-bottom: 1rem;
+          font-size: 22px;
+     }
+
+   .icones {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2rem;
+     padding-bottom: 2rem;
+   }
+
+   .copyright{
+     width: 100%;
+     text-align: center;
+     font-size: 17px;
+     font-family: 'Montserrat', serif;
+   }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+     body {
+          background-color: #F8F8F8;
+          padding-left: 2rem;
+          padding-right: 2rem;
+     }
+   
+    .container_principal {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 200px;
+    }
+    
+     .container_imagem {
+     display: flex;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+     
+   }
+   
+
+   .container_informacoes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        text-align: start;
+        width: 40%;
+        font-size: 30px;
+        font-family: 'Montserrat', serif;
+        
+     }
+
+     .meu_nome {
+          font-weight: bold;
+          margin-bottom: 1rem;
+     }
+
+   .icones {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+
+   .logo {
+     padding-right: 3rem;
+   }
+
+   .copyright{
+     width: 100%;
+     align-items: center;
+     font-size: 17px;
+     font-family: 'Montserrat', serif;
+     text-align: center;
+   }
+}
+
+@media screen and (min-width: 768px) {
+     body {
+          background-color: #F8F8F8;
+          padding-left: 2rem;
+          padding-right: 2rem;
+     }
+   
+    .container_principal {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 200px;
+    }
+    
+     .container_imagem {
+     display: flex;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+     
+   }
+   
+
+   .container_informacoes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        text-align: start;
+        width: 50%;
+        font-size: 30px;
+        font-family: 'Montserrat', serif;
+        
+     }
+
+     .meu_nome {
+          font-weight: bold;
+          margin-bottom: 1rem;
+     }
+
+   .icones {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+
+   .logo {
+     padding-right: 3rem;
+   }
+
+   .copyright{
+     width: 100%;
+     align-items: center;
+     font-size: 17px;
+     font-family: 'Montserrat', serif;
+     text-align: center;
+   }
+}
